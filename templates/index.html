@@ -26,7 +26,8 @@
             <div class="media-body">
               <h2>Latest Mars News</h2>
               <h4 class="media-heading">{{ mars.news_title }}</h4>
-              <p>{{ mars.news_paragraph }}</p>
+              <!-- One of my Deliverable 3 Requirements-->
+              <p class="text-danger">{{ mars.news_paragraph }}</p>
             </div>
           </div>
         </div>
@@ -49,7 +50,10 @@
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
             <h4>Mars Facts</h4>
+            <!-- One of my Deliverable 3 Requirements-->
+            <table class="table table-condensed>">
             {{ mars.facts | safe }}
+            </table>
           </div>
         </div>
       </div>
